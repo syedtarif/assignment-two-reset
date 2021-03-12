@@ -1,0 +1,89 @@
+.header-image{
+    width: 400px;
+    height: 80px;
+}
+.nav{
+    padding-left: 15px;
+}
+h1{
+    font-weight: 650;
+    font-size: 60px
+}
+h2{
+    font-size: 40px;
+    color: #363958;
+    font-weight: 650;
+}
+p{
+    font-size: 20px;
+}
+.button{
+    background-color: #fa804c;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+}
+.name-heighlight{
+    color: #363958;
+    font-weight: 650;
+}
+.main-part{
+    display: flex;
+}
+.p-one{
+    width: 90%;
+}
+.half-image{
+    width: 70%;
+}
+.woman-part img{
+    margin: 0 0 0 15px;
+    background-color: lightgrey;
+}
+#first-part{
+    width: 70%;
+    
+}
+#second-image{
+    width:62.60%;
+    padding: 10px 30px;
+}
+#third-part{
+    width: 57.20%;
+}
+.woman-each-div{
+    height: 450px;
+    margin-right: 70px;
+}
+.man-part img{
+    padding: 25px 55px 30px 55px;
+    margin: 15px;
+    height: 350px;
+    width: 360px;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+}
+.m{
+    border-radius: 20px;
+    width: 395px;
+}
+.header-bg{
+    background-color: #fffbf0;
+}
+.nav-bg{
+    background-color: white;
+    font-weight: 650;
+    color: #363958;
+}
+.bg-second{
+    background-color: #f1f1f1;
+}
+.last-part-logo{
+    height: 100px;
+    width: 90px;
+}
+.last-part{
+    border: 1px solid;
+}
