@@ -31,16 +31,13 @@ p{
 }
 .main-part{
     display: flex;
+    flex-direction: row;
 }
 .p-one{
     width: 90%;
 }
 .half-image{
     width: 70%;
-}
-.woman-part img{
-    margin: 0 0 0 15px;
-    background-color: lightgrey;
 }
 #first-part{
     width: 70%;
@@ -53,10 +50,6 @@ p{
 #third-part{
     width: 57.20%;
 }
-.woman-each-div{
-    height: 450px;
-    margin-right: 70px;
-}
 .man-part img{
     padding: 25px 55px 30px 55px;
     margin: 15px;
@@ -68,6 +61,7 @@ p{
 .m{
     border-radius: 20px;
     width: 395px;
+    height: 600px;
 }
 .header-bg{
     background-color: #fffbf0;
@@ -78,12 +72,96 @@ p{
     color: #363958;
 }
 .bg-second{
-    background-color: #f1f1f1;
+    background-color: #f9f1ef;
 }
 .last-part-logo{
     height: 100px;
     width: 90px;
 }
 .last-part{
-    border: 1px solid;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+.flex-last-part{
+    display: flex;
+    flex-direction: row;
+}
+.ses{
+    display: flex;
+    flex-direction: row;
+}
+.ses .ses-img{
+    height: 400px;
+    width: 700px;
+}
+.xmlid{
+    margin-top: 40px;
+
+}
+
+@media (max-width:600px){
+    .main-part{
+        flex-direction: column;
+    }
+    h1{
+        font-weight: 650;
+        font-size: 45px;
+    }
+    h2{
+        font-size: 27px;
+        color: #363958;
+        font-weight: 650;
+        text-align: center;
+    }
+    .woman-part img{
+        
+        background-color: lightgrey;
+    }
+    .header-image{
+        width: 250px;
+        height: auto;
+    }
+    .name-heighlight{
+        font-size: 30px;
+    }
+    .half-image{
+        width: 90%;
+        height: auto;
+    }
+    .m{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ses{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .ses .ses-img{
+        height: auto;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .flex-last-part{
+        display: flex;
+        flex-direction: column;
+    }
+    .last-part-logo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .last-part{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        margin-top: 30px;
+    }
+}
+@media (max-width:768px){
+    .main-part{
+        flex-direction: column;
+    }
 }
