@@ -90,6 +90,7 @@ p{
 .ses{
     display: flex;
     flex-direction: row;
+    margin-bottom: 80px;
 }
 .ses .ses-img{
     height: 400px;
