@@ -58,7 +58,7 @@ p{
     background-color: #f1f1f1;
     border-radius: 20px;
 }
-.m{
+.man-woman-card{
     border-radius: 20px;
     width: 395px;
     height: 600px;
@@ -87,18 +87,21 @@ p{
     display: flex;
     flex-direction: row;
 }
-.ses{
+.end{
     display: flex;
     flex-direction: row;
     margin-bottom: 80px;
 }
-.ses .ses-img{
+.end .end-img{
     height: 400px;
     width: 700px;
 }
 .xmlid{
     margin-top: 40px;
 
+}
+.full-last-part{
+    margin-bottom: 100px;
 }
 
 @media (max-width:600px){
@@ -109,37 +112,32 @@ p{
         font-weight: 650;
         font-size: 45px;
     }
-    h2{
-        font-size: 27px;
-        color: #363958;
-        font-weight: 650;
-        text-align: center;
-    }
-    .woman-part img{
-        
-        background-color: lightgrey;
-    }
     .header-image{
         width: 250px;
         height: auto;
-    }
-    .name-heighlight{
-        font-size: 30px;
     }
     .half-image{
         width: 90%;
         height: auto;
     }
-    .m{
+    h2{
+        font-size: 35px;
+        text-align: center;
+    }
+    
+    .name-heighlight{
+        font-size: 30px;
+    }
+    .man-woman-card{
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
-    .ses{
+    .end{
         display: flex;
         flex-direction: column-reverse;
     }
-    .ses .ses-img{
+    .end .end-img{
         height: auto;
         width: 100%;
         margin-bottom: 30px;
@@ -161,8 +159,60 @@ p{
         margin-top: 30px;
     }
 }
-@media (max-width:768px){
+@media (min-width:601px) and (max-width:768px){
     .main-part{
         flex-direction: column;
+    }
+    h1{
+        font-weight: 650;
+        font-size: 53px;
+    }
+    .header-image{
+        width: 330px;
+        height: auto;
+    }
+    .half-image{
+        width: 100%;
+        height: auto;
+    }
+    h2{
+        font-size: 40px;
+        text-align: center;
+    }
+    .name-heighlight{
+        font-size: 33px;
+    }
+    .man-woman-card{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 450px;
+        height: 600px;
+        padding-left: 28px;
+    }
+    .end{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .end .end-img{
+        height: auto;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .flex-last-part{
+        display: flex;
+        flex-direction: column;
+    }
+    .last-part-logo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .last-part{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        margin-top: 40px;
     }
 }
